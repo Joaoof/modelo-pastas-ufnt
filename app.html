@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .menu {
+            width: 300px;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu li {
+            margin: 10px 0;
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+            cursor: pointer;
+            width: 38vw;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: black;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu img {
+            width: 30px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .submenu,
+        .subpasta {
+            display: none;
+            margin: 20px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li>
+                <a href="#"><img
+                        src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                        alt="Icone"> Avaliações da Capes</a>
+                <ul class="submenu">
+                    <li><a href="#"
+                            onclick="window.open('https://drive.google.com/file/d/1ppo5njctmT0k0t8jQs-wtrh0mgmQY8PI/view?usp=drive_link'); return false;"><img
+                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                alt="Icone"> Ficha de Recomendação do Programa.</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><img
+                        src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                        alt="Icone">Calendário Acadêmico</a>
+                <ul class="submenu">
+                    <li><a href="#"
+                            onclick="window.open('https://drive.google.com/file/d/1dGMEjRaqwdPVbBWmA1-5YLhd20tN0SYg/view?usp=drive_link'); return false;"><img
+                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                alt="Icone"> Calendário Acadêmico 2017</a></li>
+                    <li><a href="#"
+                            onclick="window.open('https://drive.google.com/file/d/1U5J9WfZ21e40Z4Qk0s-gOG_Cxj1O-gQC/view?usp=drive_link'); return false;"><img
+                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                alt="Icone"> Calendário Acadêmico 2018</a></li>
+                    <li><a href="#"
+                            onclick="window.open('https://drive.google.com/file/d/1ZszGKlcMJa8nlnBDuBYgRzLfU7iZJjrj/view?usp=drive_link'); return false;"><img
+                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                alt="Icone"> Calendário Acadêmico 2019</a></li>
+                    <li><a href="#"
+                            onclick="window.open('https://drive.google.com/file/d/16KlHyGdCGHJcYacjQX6eOkCFOX7e6W55/view?usp=drive_link'); return false;"><img
+                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                alt="Icone"> Calendário Acadêmico 2020</a></li>
+                    <li><a href="#"
+                            onclick="window.open('https://drive.google.com/file/d/1Or1M0uZQfmnQSBI5UgD6kCZUzAOAQR06/view?usp=drive_link'); return false;"><img
+                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                alt="Icone"> Calendário Acadêmico 2021</a></li>
+                    <li><a href="#"
+                            onclick="window.open('https://drive.google.com/file/d/1ffoDHjNsNIq29qSyjs-BcndUbsXFyXqT/view?usp=drive_link'); return false;"><img
+                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                alt="Icone"> Calendário Acadêmico 2022</a></li>
+                    <li><a href="#"
+                            onclick="window.open('https://drive.google.com/file/d/1eEHETN5U_GjUY_r2_foxtlP0t6R678mn/view?usp=drive_link'); return false;"><img
+                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                alt="Icone"> Calendário Acadêmico 2024</a></li>
+                </ul>
+            <li>
+                <a href="#"><img
+                        src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                        alt="Icone"> Disciplinas</a>
+                <ul class="submenu">
+                    <li>
+                        <a href="#"><img
+                                src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                                alt="Icone">Disciplinas ofertadas</a>
+                        <ul class="subpasta">
+                            <li><a href="https://drive.google.com/file/d/1Z9bTgCzCOoxfEC6IXnk5g8JCjP8uKdb2/view?usp=drive_link"
+                                    onclick="window.open('https://drive.google.com/file/d/1Z9bTgCzCOoxfEC6IXnk5g8JCjP8uKdb2/view?usp=drive_link', '_blank'); return false;"><img
+                                        src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                        alt="Icone"> Disciplina ofertada 2023 - 1</a></li>
+                            <li><a href="https://drive.google.com/file/d/1kJesiOhQouyRA_s-w54avkoppcUfuVI4/view?usp=drive_link"
+                                    onclick="window.open('https://drive.google.com/file/d/1kJesiOhQouyRA_s-w54avkoppcUfuVI4/view?usp=drive_link', '_blank'); return false;"><img
+                                        src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                        alt="Icone"> Disciplinas oferadas 2024 - 1</a></li>
+                            <li><a href="https://drive.google.com/file/d/10MZt74wwyzD1IuJBDCz12XmmI4Y7SNKI/view?usp=drive_link"
+                                    onclick="window.open('https://drive.google.com/file/d/10MZt74wwyzD1IuJBDCz12XmmI4Y7SNKI/view?usp=drive_link', '_blank'); return false;"><img
+                                        src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                        alt="Icone"> Disciplinas Ofertadas 2017.1 e 2017.2.</a></li>
+                            <li><a href="https://drive.google.com/file/d/1WVC-33n_zGIX6LQdrn2K-HlVfbLHbdtD/view?usp=drive_link"
+                                    onclick="window.open('https://drive.google.com/file/d/1WVC-33n_zGIX6LQdrn2K-HlVfbLHbdtD/view?usp=drive_link', '_blank'); return false;"><img
+                                        src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                        alt="Icone"> Disciplinas Ofertadas 2018.1 e 2018.2.</a></li>
+                            <li><a href="https://drive.google.com/file/d/1dPDlL_jMF6KwnqxZrSlmNq1CfZL51S4I/view?usp=drive_link"
+                                    onclick="window.open('https://drive.google.com/file/d/1dPDlL_jMF6KwnqxZrSlmNq1CfZL51S4I/view?usp=drive_link', '_blank'); return false;"><img
+                                        src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                        alt="Icone"> Disciplinas Ofertadas 2019.1 e 2019.2.</a></li>
+                            <li><a href="https://drive.google.com/file/d/1GpPdqV1o451ktwGamfdF6U8e8DTo0iGr/view?usp=drive_link"
+                                    onclick="window.open('https://drive.google.com/file/d/1GpPdqV1o451ktwGamfdF6U8e8DTo0iGr/view?usp=drive_link', '_blank'); return false;"><img
+                                        src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                        alt="Icone"> Disciplinas Ofertadas 2020.1</a></li>
+                            <li><a href="https://drive.google.com/file/d/10EboxxYdo4WARgIiyAokbo72MFnzUP33/view?usp=drive_link"
+                                    onclick="window.open('https://drive.google.com/file/d/10EboxxYdo4WARgIiyAokbo72MFnzUP33/view?usp=drive_link', '_blank'); return false;"><img
+                                        src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                        alt="Icone"> Disciplinas Ofertadas 2020.2.</a></li>
+                            <li><a href="https://drive.google.com/file/d/19v5Cl9bYVpVAgvAet7aoSGhGmG4g63nO/view?usp=drive_link"
+                                    onclick="window.open('https://drive.google.com/file/d/19v5Cl9bYVpVAgvAet7aoSGhGmG4g63nO/view?usp=drive_link', '_blank'); return false;"><img
+                                        src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                        alt="Icone"> Disciplinas Ofertadas 2021.1</a></li>
+                            <li><a href="https://drive.google.com/file/d/11z2CixKmccnrAm0EXtY0ND463Do3UyPG/view?usp=drive_link"
+                                    onclick="window.open('https://drive.google.com/file/d/11z2CixKmccnrAm0EXtY0ND463Do3UyPG/view?usp=drive_link', '_blank'); return false;"><img
+                                        src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                        alt="Icone"> Disciplinas ofertadas Ano Letivo 2022</a></li>
+                            <li><a href="https://drive.google.com/file/d/1FNm4wNkZU8v_7jQJnKtLvHXvxAVb4-0T/view?usp=drive_link"
+                                    onclick="window.open('https://drive.google.com/file/d/1FNm4wNkZU8v_7jQJnKtLvHXvxAVb4-0T/view?usp=drive_link', '_blank'); return false;"><img
+                                        src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                        alt="Icone"> Disciplinas Ofertadas no Quadriênio 2017-2020</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><img
+                                src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                                alt="Icone">Obrigatórias</a>
+                        <ul class="subpasta">
+                            <li>
+                                <a href="#"><img
+                                        src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                                        alt="Icone">Estrutura Curricular</a>
+                                <ul class="subpasta">
+                                    <li><a href="https://drive.google.com/file/d/1kxO_VsFIz90LGczxsnBFKvgQ3_z2HBA6/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/1kxO_VsFIz90LGczxsnBFKvgQ3_z2HBA6/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone"> Estudos de Vulnerabilidade e Tecnologias Sociai></a></li>
+                                    <li><a href="https://drive.google.com/file/d/1rVR8-jrc2uVLbJWTxhXPr0MvxsTjYu8-/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/1rVR8-jrc2uVLbJWTxhXPr0MvxsTjYu8-/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone"> Tópicos Especiais em Vulnerabilidade e Dinâmicas
+                                            Regionais.</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    <li>
+                        <a href="#"><img
+                                src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                                alt="Icone">Optativas</a>
+                        <ul class="subpasta">
+                            <li>
+                                <a href="#"><img
+                                        src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                                        alt="Icone">Estrutura Curricular 2017 - 2020</a>
+                                <ul class="subpasta">
+                                    <li><a href="https://drive.google.com/file/d/1icTB7_hSnmCLLocQQLgTliR9XTpiNgTZ/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/1icTB7_hSnmCLLocQQLgTliR9XTpiNgTZ/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone">Alternativas de Desenvolvimento e de Organização Social</a>
+                                    </li>
+                                    <li><a href="https://drive.google.com/file/d/1yKgyR-nccAzeo7tE0kVpf-MtoEhF5Na-/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/1yKgyR-nccAzeo7tE0kVpf-MtoEhF5Na-/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone">Aspectos Psicossociais das Populações Vulneráveis e das
+                                            Demandas Populares</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1k5-ZHU24ZG7BEyPM9TMAkHaQXrlp215T/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/1k5-ZHU24ZG7BEyPM9TMAkHaQXrlp215T/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone">Comunidades Tradicionais - Diversidade Cultural e Arte</a>
+                                    </li>
+                                    <li><a href="https://drive.google.com/file/d/1UbaTTElIOndok264vBXyp-G_4dXFuBZB/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/1UbaTTElIOndok264vBXyp-G_4dXFuBZB/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone">Constituição do Espaço Social, Sistemas Naturais e Exclusão
+                                            Espacial.</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1plntjm10GPtL-Dge7yXapiur7QHkWGKH/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/1plntjm10GPtL-Dge7yXapiur7QHkWGKH/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone">Discurso, Sujeito e Práticas Sociais</a>
+                                    </li>
+                                    <li><a href="https://drive.google.com/file/d/19zmbAHAlErL9Ud9HiJqNsrT8pZVJjE4X/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/19zmbAHAlErL9Ud9HiJqNsrT8pZVJjE4X/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone">Etnoconhecimento - Fundamentos e Metodologias</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1HKYEiztfrF__lJnAWvwdX2NiNvLc2_4k/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/1HKYEiztfrF__lJnAWvwdX2NiNvLc2_4k/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone">Formas Históricas de Organização do Trabalho - Alienação
+                                            v.s. Emancipação</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1cCOebwNaAXRtabNC7ePNpu14MDavAHb1/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/1cCOebwNaAXRtabNC7ePNpu14MDavAHb1/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone">Movimentos Sociais e Organização das Demandas Populares</a>
+                                    </li>
+                                    <li><a href="https://drive.google.com/file/d/1ADPYIMD-IVzdlJKoK_uZZ4HjJwHXpPvH/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/1ADPYIMD-IVzdlJKoK_uZZ4HjJwHXpPvH/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone">Políticas Ambientais, Conflitos e Gestão de Recursos
+                                            Naturais</a></li>
+                                    <li><a href="https://drive.google.com/file/d/15CIVfQAHYM6KtbaCKqbgPfk2o52Ak5dj/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/15CIVfQAHYM6KtbaCKqbgPfk2o52Ak5dj/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone">Saneamento Básico e Educação em Saúde</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1rioN7SkZ9WwdvsFmRQLcwy8k1E02qYn9/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/1rioN7SkZ9WwdvsFmRQLcwy8k1E02qYn9/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone">Teoria e Fundamentos do Desenvolvimento Societário</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1O4iUwx_bUjIsyv9Jco-C028r6g8McHKD/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/1O4iUwx_bUjIsyv9Jco-C028r6g8McHKD/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone">Tópicos Especiais em Desenvolvimento e Tecnologias
+                                            Sociais</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1rVR8-jrc2uVLbJWTxhXPr0MvxsTjYu8-/view?usp=drive_link"
+                                            onclick="window.open('https://drive.google.com/file/d/1rVR8-jrc2uVLbJWTxhXPr0MvxsTjYu8-/view?usp=drive_link')"><img
+                                                src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                                alt="Icone">Tópicos Especiais em Vulnerabilidade e Dinâmicas
+                                            Regionais.</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+            </li>
+        </ul>
+        </li>
+
+        <li>
+            <a href="#"><img src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                    alt="Icone">Eventos</a>
+            <ul class="submenu">
+                <li>
+                    <a href="#"><img
+                            src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                            alt="Icone">Eventos de 2017</a>
+                    <ul class="subpasta">
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1I274dS0lOWYPoWQpOa6o97i5yApsCnZb/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Aula Inaugural 2017</a></li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1rAy6diFOohArwsilo3_7GE6AN5SsLp_Y/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Cartaz Ambiente e Sociedade</a></li>
+
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1wr3UFCCBd7Htyt9dxTW__B3e89DhVxQI/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">I Debate de Didática e Ensino</a></li>
+
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1sGegd5IBXa_BHtCooRIYNijxVpgAZ_gA/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">I Workshop de Qualificação de Projetos</a></li>
+
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1vGCd_LJQQm4c2rTwQ0HX5QSfRPKINGE5/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Programação Ambiente e Sociedade</a></li>
+
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1X9pwR6-e9F9A6Cx7HcDV7FUQ4tTgcaft/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Programação</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><img
+                            src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                            alt="Icone">Eventos de 2018</a>
+                    <ul class="subpasta">
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1jd_uCpCbfybSuY-84DWtik23qhjkl_JB/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">1-Cartaz Ambiente e Sociedade-caminhos possíveis-2018</a></li>
+
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1tQgfBiojFHj13b6_iw5fVcP_FBnpD6B4/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">2-Programação Ambiente e Sociedade</a></li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1fN1e5_eNNyWLAOQuOp3uUSWqYTNohIXP/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Aula inaugural turma 2018 PPGDire</a></li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1ol9JbZej7aTCvYvINVL1UwYEy0pS_L3n/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Cartaz Formação docente e discente</a></li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1SqfaZboEmevyuQZtHz0lPcYQxQVSNk6-/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Cartaz qualificação de projetos 2018 PPGDire</a></li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1tw1n04Wr3eui0q8RnCSHi5xN-awi9Xag/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Programação Debate Didática II 2018 - PPGDire.</a></li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1sBDRAA9PYhQDiYN7BMQzlVB8gpX_b-xI/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Programação V Mercado Institucional alterada</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><img
+                            src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                            alt="Icone">Eventos de 2019</a>
+                    <ul class="subpasta">
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1tte6GGrsMHaFFqSawog-SeEgdnq1KRJz/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Cartaz aula inaugural 3 turma PPGDire 2019</a></li>
+
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1H-VD6R3Thm8Ngw3kjHJ7q0rNzx4AcP0P/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">I Seminário de Recursos Hidricos da bacia dos rios Lontra e Corda</a>
+                        </li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1XRC0caPpnPjLnccQ0TRMJtp0k3q7PuD2/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">III Worshop de Qualidficacao de Projetos de pesqui…ma de Demandas
+                                Populares e Dinamicas Regionais</a></li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1KZLy20GUcX3puFpwXnXVCGp4RvciShDr/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">IV SEMANA INDÍGENA DO LALI EDUCAÇÃO EM PERSPECTIVA DE FORMAÇÃO</a></li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/14uW8Ns2jNfu0rswKvYbyKsd6zDlsx68A/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">VIII SEMINÁRIO BEM VIVER INDÍGENA.</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><img
+                            src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                            alt="Icone">Eventos de 2020</a>
+                    <ul class="subpasta">
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1--4tbRs7DNSOrmQ7RO0Q_ADezSBmwJDe/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Aula Inaugural 4ª turma do Mestrado em Demandas Populares e Dinâmicas
+                                Regionais</a></li>
+
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1-NGMv-2epwa3uwf_xBDbDXvyD_3jIIAz/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Webconferencia Falando de casa 5 de junho</a>
+                        </li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1it5y3tW7yQrjCBmEFpI4mLggS_0l-P7X/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Webconferencia Falando de Casa 12 de maio</a></li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1suztoRzJavHf3Md9SHRXvCmB_lIlemrz/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Webconferência Os prismas da Economia Solidária.</a></li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/17IUK9qTbWGIht939unMu4APGo9NLr1mI/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">WebconferênciaTecnologia Social Gênese e Desenvolvimento.</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><img
+                            src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                            alt="Icone">Eventos de 2021</a>
+                    <ul class="subpasta">
+                        <li>
+                            <a href="#"><img
+                                    src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                                    alt="Icone">Comemoração dos 4 anos do PPGDire</a>
+                            <ul class="subpasta">
+                                <li><a
+                                        onclick="window.open('https://drive.google.com/file/d/1S7Ld3x7DCb9Mu25tLddVyNG4PZLZ1w0B/view?usp=drive_link')"><img
+                                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                            alt="Icone">02-06 Regiões Pós-Covid19</a>
+                                </li>
+                                <li><a
+                                        onclick="window.open('https://drive.google.com/file/d/16h3_E0w1JnhcqR-O5M2xxF4T-zx8xNO4/view?usp=drive_link')"><img
+                                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                            alt="Icone">4 anos de percursos e algumas paradas para interlocução</a>
+                                </li>
+                                <li><a
+                                        onclick="window.open('https://drive.google.com/file/d/1nb_-bzsVAArujeTxSAagaEDPcqPFVnfi/view?usp=drive_link')"><img
+                                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                            alt="Icone">10-06 Planejamento e populações negras</a>
+                                </li>
+                                <li><a
+                                        onclick="window.open('https://drive.google.com/file/d/1AeoNlJa-TW8qRzlI8NJtyvpNbbphEcFz/view?usp=drive_link')"><img
+                                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                            alt="Icone">17-06 Teorias africanas do desenvolvimento</a>
+                                </li>
+                                <li><a
+                                        onclick="window.open('https://drive.google.com/file/d/1KbqxwADS0yxGWl175c8EWMc4mBQknksa/view?usp=drive_link')"><img
+                                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                            alt="Icone">24-06 Agricultas e Desenvolvimento Regional.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><img
+                                    src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                                    alt="Icone">Semana de Qualificação de Projetos da Quinta Turma</a>
+                            <ul class="subpasta">
+                                <li><a
+                                        onclick="window.open('https://drive.google.com/file/d/1ayznm5S7LXA37i8QUedESStkvFYWhWWv/view?usp=drive_link')"><img
+                                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                            alt="Icone">CardSemanaDeQualificacao.j</a>
+                                </li>
+                                <li><a
+                                        onclick="window.open('https://drive.google.com/file/d/1aIVv9403cdy0wOUFmINdEceNaTRWvZxy/view?usp=drive_link')"><img
+                                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                            alt="Icone">ProgramacaoSemanaDeQualificacao5Turma.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1HvSNl5CybPtpz-2xJIKT0v8Ycg0YTX5w/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">16-04 As mudanças na família e a criação das crianças</a>
+                        </li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1iRnQ1ciZ_oWTWPU9yLsjELA1xjlXGMA2/view?usp=drive_link')"><img
+                                    src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                                    alt="Icone">Aula Magna</a>
+                        </li>
+                </li>
+            </ul>
+        <li>
+            <a href="#"><img src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                    alt="Icone">Eventos de 2022</a>
+            <ul class="subpasta">
+                <li><a
+                        onclick="window.open('https://drive.google.com/file/d/16hxgtgX1ng1QVLjEQQ41YK4OqkZQ2wUN/view?usp=drive_link')"><img
+                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                            alt="Icone">CardAmazonia+10.</a></li>
+
+                <li><a
+                        onclick="window.open('https://drive.google.com/file/d/18Q5sgTGsNK4xaQZct95Y2qvCFdANomXn/view?usp=drive_link')"><img
+                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                            alt="Icone">CardAula6ªTurmaPPGDire</a>
+                </li>
+                <li><a
+                        onclick="window.open('https://drive.google.com/file/d/1i8q42gCFLvXCcSutbNIR7kZoC1oyi-Z7/view?usp=drive_link')"><img
+                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                            alt="Icone">CardCiclosEventoRenata.</a></li>
+                <li><a
+                        onclick="window.open('https://drive.google.com/file/d/1Ir83i1tdKztwefYK7i84ZIVJqeSkHpAK/view?usp=drive_link')"><img
+                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                            alt="Icone">CardIntercambioUFNTProcadAmazonia</a></li>
+                <li><a
+                        onclick="window.open('https://drive.google.com/file/d/1bVRXDtlrI-IIowOS1XGA6QcTf6ETz85C/view?usp=drive_link')"><img
+                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                            alt="Icone">CardJornadaDeAutoavaliacao</a></li>
+                <li><a
+                        onclick="window.open('https://drive.google.com/file/d/1aKMYJQXztRN5juaxMPN7iZ1whCA_lK-q/view?usp=drive_link')"><img
+                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                            alt="Icone">CartazAulaInaugural6ªTurma</a></li>
+                <li><a
+                        onclick="window.open('https://drive.google.com/file/d/1sp7mIB-9tXGD1L9XJ70xA6MhZycBNd76/view?usp=drive_link')"><img
+                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                            alt="Icone">EventoProcadAmazoniaAraguaina3</a></li>
+                <li><a
+                        onclick="window.open('https://drive.google.com/file/d/1NpxQyAOadj4AEQSRxKZcVdi8eu8aScP6/view?usp=drive_link')"><img
+                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                            alt="Icone">EventoProcadAraguaina</a></li>
+                <li><a
+                        onclick="window.open('https://drive.google.com/file/d/1TrH3PMu8e5UUvq6AKYThUGq1D2vkn8MY/view?usp=drive_link')"><img
+                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                            alt="Icone">ventoprocadAraguaina2</a></li>
+                <li><a
+                        onclick="window.open('https://drive.google.com/file/d/1JWOyH7oWn06b-M0tJQ1jIFK71ZRJ8q0k/view?usp=drive_link')"><img
+                            src="https://t4.ftcdn.net/jpg/04/65/41/29/360_F_465412924_Ir2XnMp0TYJYtpl1IdNSPYt0UNDVMJv3.jpg"
+                            alt="Icone">Registros do PPGDire em 2022</a></li>
+            </ul>
+        </li>
+        </li>
+        </ul>
+        <li>
+            <a href="#"><img src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                    alt="Icone">Formulários</a>
+            <ul class="submenu">
+                <li>
+                    <a href="#"><img
+                            src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                            alt="Icone">Solicitação de Aproveitamento De Disciplina</a>
+                    <ul class="subpasta">
+                        <li><a
+                                onclick="window.open('https://docs.google.com/document/d/1VtK5ZnKLSVwunLfA_CLKuZxlDCHK03nz/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')"><img
+                                    src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                    alt="Icone">Requerimento de aproveitamento de disciplina</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><img
+                            src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                            alt="Icone">Solicitação de Crédito Especiais</a>
+                    <ul class="subpasta">
+                        <li><a
+                                onclick="window.open('https://docs.google.com/document/d/1PEjQpAEtIlpejkbonXG6zGLQATRAvOQg/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')"><img
+                                    src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                    alt="Icone">Formulariosolicitaçãocreditosespeciais</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><img
+                            src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                            alt="Icone">Solicitação de Defesa</a>
+                    <ul class="subpasta">
+                        <li><a
+                                onclick="window.open('https://docs.google.com/document/d/1vOPlJ8dQ61ESt_LtcdJwSNVzgDt94HfC/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')"><img
+                                    src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                    alt="Icone">FormularioBancaDeDefesaPPGDire</a></li>
+                        <li><a
+                                onclick="window.open('https://docs.google.com/document/d/1h4_hbQ6d_6e_H8daMri4Bx42CULNgNBw/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')"><img
+                                    src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                    alt="Icone">Formulariosolicitaçãocreditosespeciais</a></li>
+                        <li><a
+                                onclick="window.open('https://docs.google.com/document/d/1RD2TYMUtSxUn5q0s57hdj19VU_t12moa/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')"><img
+                                    src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                    alt="Icone">Novo modelo de Ata PPGDire.</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><img
+                            src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                            alt="Icone">Solicitação de Diploma</a>
+                    <ul class="subpasta">
+                        <li><a
+                                onclick="window.open('https://docs.google.com/document/d/1538EmX70OxkPkjIJpP_khO5O6MRQDjJV/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')"><img
+                                    src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                    alt="Icone">Documentos para Requerimento de Diploma - check list[500]</a></li>
+                        <li><a
+                                onclick="window.open('https://docs.google.com/document/d/1ggH_guSjgyV39OPIkaIe71dLEJCQvYED/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')"><img
+                                    src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                    alt="Icone">Ficha de cadastro da dissertação na Capes</a></li>
+                        <li><a
+                                onclick="window.open('https://drive.google.com/file/d/1pNcRBEPPBVUqnjkJXAEjDh9gvHjYKpBa/view?usp=drive_link')"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/PDF_icon.svg/1792px-PDF_icon.svg.png"
+                                    alt="Icone">Manual de Normalizacao UFNT</a></li>
+                        <li><a
+                                onclick="window.open('https://docs.google.com/document/d/1xLrvh5RVgxFlK4Qe9ltt18KbYtr3q1wn/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')"><img
+                                    src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                    alt="Icone">Requerimento de emissão de diploma ok[504].</a></li>
+                        <li><a
+                                onclick="window.open('https://docs.google.com/document/d/1U6CX6yhyp6IfFOX0U9XJ4I7G9jryGGS_/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')"><img
+                                    src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                    alt="Icone">TERMO DE AUTORIZAÇÃO DE TESES E DISSERTAÇÕES</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><img
+                            src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                            alt="Icone"> Solicitação de Matricula</a>
+                    <ul class="subpasta">
+                        <li>
+                            <a href="#"><img
+                                    src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                                    alt="Icone"> Aluno Especial</a>
+                            <ul class="subpasta">
+                                <li><a href="#"
+                                        onclick="window.open('https://docs.google.com/document/d/1-DQCKiYx3S_IYFhxhsRIjQLSPo0YmnzX/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')">
+                                        <img src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                            alt="Icone">Ficha Cadastral Aluno Especial</a>
+                                </li>
+                                <li><a href="#"
+                                        onclick="window.open('https://docs.google.com/document/d/1N6u_-1mLLdx5ae2XTaGwCZJoJvDCn_mI/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')">
+                                        <img src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                            alt="Icone">Lista de conferencia de documentos</a>
+                                </li>
+                                <li><a href="#"
+                                        onclick="window.open('https://docs.google.com/document/d/1QA_B09w45df2fs6lupAzxuv1mK0u_X9U/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')">
+                                        <img src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                            alt="Icone">Requerimento de Matricula Aluno Especial</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><img
+                                    src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                                    alt="Icone"> Aluno Regular</a></li>
+                        <ul class="subpasta">
+                            <li><a href="#"
+                                    onclick="window.open('https://docs.google.com/document/d/1-DQCKiYx3S_IYFhxhsRIjQLSPo0YmnzX/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')">
+                                    <img src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                        alt="Icone">Ficha Cadastral Aluno Especial</a>
+                            </li>
+                            <li><a href="#"
+                                    onclick="window.open('https://docs.google.com/document/d/1N6u_-1mLLdx5ae2XTaGwCZJoJvDCn_mI/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')">
+                                    <img src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                        alt="Icone">Lista de conferencia de documentos</a>
+                            </li>
+                            <li><a href="#"
+                                    onclick="window.open('https://docs.google.com/document/d/1QA_B09w45df2fs6lupAzxuv1mK0u_X9U/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')">
+                                    <img src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                                        alt="Icone">Requerimento de Matricula Aluno Especial</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </li>
+        </li>
+        <li>
+            <a href="#"><img src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                    alt="Icone">Solicitação de Qualificação</a>
+            <ul class="subpasta">
+                <li><a
+                        onclick="window.open('https://docs.google.com/document/d/1PEjQpAEtIlpejkbonXG6zGLQATRAvOQg/edit?usp=drive_link&ouid=112941771653536611991&rtpof=true&sd=true')"><img
+                            src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/word.png"
+                            alt="Icone">Formulariosolicitaçãocreditosespeciais</a></li>
+            </ul>
+        </li>
+        </ul>
+        </li>
+        </li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+        </ul>
+    </nav>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuItems = document.querySelectorAll('.menu > ul > li > a');
+            const subMenus = document.querySelectorAll('.menu > ul > li > .submenu');
+
+            menuItems.forEach(item => {
+                item.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const submenu = item.nextElementSibling;
+                    if (submenu && submenu.classList.contains('submenu')) {
+                        submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+                    }
+                });
+            });
+
+            const subMenuItems = document.querySelectorAll('.submenu > li > a');
+            subMenuItems.forEach(item => {
+                item.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const subpasta = item.nextElementSibling;
+                    if (subpasta && subpasta.classList.contains('subpasta')) {
+                        subpasta.style.display = subpasta.style.display === 'block' ? 'none' : 'block';
+                    }
+                });
+            });
+
+            const subpastaItems = document.querySelectorAll('.subpasta > li > a');
+            subpastaItems.forEach(item => {
+                item.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const subpasta = item.nextElementSibling;
+                    if (subpasta && subpasta.classList.contains('subpasta')) {
+                        subpasta.style.display = subpasta.style.display === 'block' ? 'none' : 'block';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

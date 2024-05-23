@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    width: 300px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.menu img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.submenu li {
+    border-bottom: 1px solid #4d4fc9;
+}
+
+.subpasta {
+    margin: 20px;
+}
+
+.subpasta li a {
+    margin-bottom: 100px;
+}
