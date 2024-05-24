@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .menu {
+            width: 300px;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu li {
+            margin: 10px 0;
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+            cursor: pointer;
+            width: 38vw;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: black;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu img {
+            width: 30px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .submenu,
+        .subpasta {
+            display: none;
+            margin: 20px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Meu Menu</title>
+    </head>
+
+    <body>
+        <nav class="menu">
+            <ul>
+                <li><a href="#"><img
+                            src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                            alt="Icone">Bolsas</a></li>
+                <ul class="subpasta">
+
+                </ul>
+                <li><a href="#"><img
+                            src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                            alt="Icone">Editais Encerrados</a></li>
+                <li><a href="#"><img
+                            src="https://icones.pro/wp-content/uploads/2021/04/icone-de-dossier-symbole-png-bleu.png"
+                            alt="Icone">Seleção Aluno Especial 2024 1</a></li>
+            </ul>
+        </nav>
+    </body>
+
+    </html>
+
+    </nav>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuItems = document.querySelectorAll('.menu > ul > li > a');
+            const subMenus = document.querySelectorAll('.menu > ul > li > .submenu');
+
+            menuItems.forEach(item => {
+                item.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const submenu = item.nextElementSibling;
+                    if (submenu && submenu.classList.contains('submenu')) {
+                        submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+                    }
+                });
+            });
+
+            const subMenuItems = document.querySelectorAll('.submenu > li > a');
+            subMenuItems.forEach(item => {
+                item.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const subpasta = item.nextElementSibling;
+                    if (subpasta && subpasta.classList.contains('subpasta')) {
+                        subpasta.style.display = subpasta.style.display === 'block' ? 'none' : 'block';
+                    }
+                });
+            });
+
+            const subpastaItems = document.querySelectorAll('.subpasta > li > a');
+            subpastaItems.forEach(item => {
+                item.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const subpasta = item.nextElementSibling;
+                    if (subpasta && subpasta.classList.contains('subpasta')) {
+                        subpasta.style.display = subpasta.style.display === 'block' ? 'none' : 'block';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
